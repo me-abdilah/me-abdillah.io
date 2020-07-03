@@ -1,0 +1,422 @@
+*{
+  box-sizing:border-box;
+}
+============================================
+
+body{
+  margin:0px;
+  padding:0px;
+  text-align: center;
+  }
+  .header{
+  width:1264px;
+  height:110px;
+  background-color:orange;
+  }
+  .header-left {
+  float:left;
+  letter-spacing: 5px;
+  }
+  .header-left h1{
+  background-color: white;
+  color: orange;
+  font-size: 39px;
+  display: inline-block;
+  float: left;
+  padding:10px 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  margin :25px 25px;
+  }
+  .header-right {
+  float:right;
+  color:#ffffff;
+  }
+  li {
+  list-style: none;
+  float:left;
+  font-size:25.66px;
+  padding:22px 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing:5px;
+  }
+
+=======================================
+/* reset css */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+  
+
+
+.clear{
+  clear:left;
+}
+
+.container{
+  max-width:1440px;
+  width:100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main_1{
+  background-image:url(https://www.itseducation.asia/assets/images/article-images/65b0e_2434489.jpg);
+  background-size:cover;
+  width:100%;
+}
+
+.top{
+  padding-top:100px;
+  padding-left:30px;
+  width:45%;
+  padding-bottom:50px;
+}
+
+.uppertitle{
+  font-size:50px;
+  letter-spacing:5px;
+}
+
+.lowertitle{
+  font-size:70px;
+  letter-spacing:22px;
+}
+
+.fa{
+  padding-right:15px;
+}
+
+.btn{
+  padding: 12px 35px;
+  color: black;
+  display: block;
+  opacity: 0.7;
+  border-radius: 4px;
+  font-size:28px;
+  background-color:white;
+}
+
+.login-gmail{
+  width:300px;
+  margin:50px auto;
+}
+
+.login-fb{
+  width:300px;
+  margin:50px auto;
+}
+
+.top p{
+  margin-top:80px;
+  font-size:35px;
+  text-align:center;
+}
+
+.btn:hover{
+  opacity:1;
+}
+
+========================================
+
+.wisata {
+  text-align: center;
+  font-family: 'montserrat',sans-serif;
+  padding-top: 5px;
+}
+
+.isi-wisata {
+  text-align: center;
+  font-family: 'montserrat',sans-serif;
+}
+
+.lokasi {
+  border-width: 5px;
+  border-color: orange;
+  border-style: solid;
+  width: 95%;
+}
+
+.tempat {
+  float: left;
+  margin: 1.64px;
+  text-align: center;
+  position: relative;
+}
+
+.tempat-wisata p {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+}
+
+.tempat-wisata p:hover {
+  color: orange;
+}
+
+.pencarian {
+  border-bottom: 5px solid #eee;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.tombol {
+  padding: 5px 20px;
+  background-color: rgba(255, 166, 0, 0.774);
+  cursor: pointer;
+  box-shadow: 0 7px rgb(255, 166, 0);
+  color: white;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.tombol:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.kata h2 {
+  color: rgb(0, 0, 0);
+}
+
+========================================
+
+.container {
+  width: 900px;
+  height: 900px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.lesson-wrapper {
+  height: 900px;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: px;
+  color: black;
+}
+
+.heading h2 {
+  font-size: 40px;
+  color: e2a355;
+  font-weight: px;
+}
+
+.heading p {
+  font-size: 20px;
+  color: #000000;
+  padding-top: 20px;
+}
+
+.lesson {
+  float: left;
+  font-weight: bold;
+  width: 33%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  font-size: 30px;
+  position: absolute;
+  top: 110px;
+  width: 100%;
+  padding-bottom: 50px;
+  color: white;
+}
+
+
+.lesson-icon p:hover {
+  color: orange;
+}
+
+.lesson-icon img {
+  opacity: 1;
+  width: 94%;
+  height: 300px;
+  border: 5px solid orange;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 18px;
+  margin-top: ;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.btn h2 {
+    font-size: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.Tampilkan {
+  background-color: orange;
+}
+
+.btn:focus {
+  background-color: orange;
+}
+
+.btn {
+  border-bottom: 5px solid #eee;
+}
+
+.btn-wrapper {
+  border-bottom: 5px solid #eee;
+  padding-bottom: 30px;
+}
+
+========================================
+
+/* reset css */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+  
+
+
+
+
+
+
+/* bagian contact-form */
+
+.section-title {
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 50px
+}
+
+.akhir {
+  padding-top: 40px;
+}
+
+.section-title h3 {
+  color:orange;
+  letter-spacing: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.section-title h5 {
+  letter-spacing: 3px;
+  font-weight: normal;
+}
+
+.message {
+  margin-left: 20px;
+}
+
+input {
+  width: 340px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #5b5d5f;
+}
+
+textarea {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+  font-size: 14px;
+  border: 1px solid #5b5d5f;
+}
+
+.contact-submit {
+  background-color: orange;
+  color: #fff;
+  width: 60px;
+  letter-spacing: 4px;
+  margin-left: 25%;
+  border-radius: 8px
+}
+
+/* Bagian footer */
+.footer {
+  background-color: orange;
+  color: #fff;
+  height: 115px;
+  width: 100%;
+}
+
+
+.footer-title{
+  letter-spacing: 4px;
+  background-color: orange;
+  margin-left: 14px;
+  background-size: 20px;
+
+}
+
+.footer-title h2 {
+  background-color: white;
+  color: orange;
+  font-size: 39px;
+  display: inline-block;
+  float: left;
+  padding:10px 15px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 15px;
+  margin :25px 25px;
+}
+
+.list-title {
+  font-size: 35px;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 8px;
+  padding-left: 180px
+}

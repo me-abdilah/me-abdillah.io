@@ -1,0 +1,60 @@
+/* For Tablets */
+@media (max-width: 1000px) {
+    .main_1 {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  
+    .top{
+      width:100%;
+      text-align:center;
+    }
+  
+    .uppertitle{
+      font-size:45px;
+    }
+    
+    .lowertitle{
+      font-size:60px;
+      padding-left:20px;
+    }
+    
+    .top p{
+      font-size:30px;
+    }
+    
+  }
+
+/* For Smartphones */
+@media (max-width: 670px) {
+    .main_1 {
+     width: 100%;
+     margin-bottom: 50px;
+   }
+ 
+   .top{
+     width:100%;
+     text-align:center;
+     padding-left:0px;
+   }
+ 
+   .uppertitle{
+     font-size:25px;
+ 
+   }
+   
+   .lowertitle{
+     font-size:30px;
+     padding-left:10px;
+     letter-spacing:18;
+   }
+   
+   .top p{
+     font-size:20px;
+   }
+   
+   .btn{
+     width:100%;
+     font-size:20px;
+   }
+ }
